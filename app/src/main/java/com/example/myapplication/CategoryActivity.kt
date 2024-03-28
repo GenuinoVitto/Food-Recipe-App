@@ -11,11 +11,11 @@ import androidx.room.Room
 import com.example.myapplication.databinding.ActivityCategoryBinding
 
 class CategoryActivity : ComponentActivity() {
+    private lateinit var rvAdapter: CategoryAdapter
+    private lateinit var dataList: ArrayList<Recipe>
     private val binding by lazy {
         ActivityCategoryBinding.inflate(layoutInflater)
     }
-    private lateinit var rvAdapter: CategoryAdapter
-    private lateinit var dataList: ArrayList<Recipe>
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
@@ -29,7 +29,6 @@ class CategoryActivity : ComponentActivity() {
 
     private fun setUpRecyclerView() {
         dataList=ArrayList()
-
 
         binding.rvCategory.layoutManager=
             LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)

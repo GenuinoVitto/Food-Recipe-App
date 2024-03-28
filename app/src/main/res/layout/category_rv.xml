@@ -34,37 +34,29 @@
         android:id="@+id/tittle"
         android:layout_width="135dp"
         android:layout_height="wrap_content"
-        android:text="Sample text is here 😊"
         android:layout_marginStart="10dp"
         android:layout_marginTop="-20dp"
         android:fontFamily="@font/poppinslight"
         android:maxLength="40"
         android:maxLines="2"
+        android:text="Sample text is here 😊"
         android:textColor="@color/black"
-        android:textStyle="bold"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/cardView2"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="5dp"
-        app:layout_constraintStart_toStartOf="@+id/tittle"
-        app:layout_constraintTop_toBottomOf="@+id/tittle"
-        app:srcCompat="@drawable/clock_icon" />
 
     <TextView
         android:id="@+id/time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:text="30 mins"
-        android:textColor="@color/black"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
         android:fontFamily="@font/poppinslight"
         android:gravity="center"
+        android:text="30 mins"
+        android:textColor="@color/black"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/tittle" />
 
@@ -79,5 +71,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/card_btn"
         app:tint="#019267" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_margin="10dp"
+        app:layout_constraintStart_toEndOf="@+id/cardView2"
+        app:layout_constraintTop_toBottomOf="@+id/tittle"
+        app:srcCompat="@drawable/clock_icon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
