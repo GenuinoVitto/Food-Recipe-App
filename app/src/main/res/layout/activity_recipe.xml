@@ -5,8 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RecipeActivity"
-    app:layoutDescription="@xml/activity_recipe_scene">
+    tools:context=".RecipeActivity">
+<!--    app:layoutDescription="@xml/activity_recipe_scene">-->
 
     <ImageView
         android:id="@+id/item_image"
