@@ -49,4 +49,26 @@ class CategoryActivity : ComponentActivity() {
             binding.rvCategory.adapter=rvAdapter
         }
     }
+
+    private fun addRecipe(recipe: Recipe) {
+        val db = Room.databaseBuilder(
+            this@CategoryActivity,
+            AppDatabase::class.java, "db_name"
+        ).build()
+
+        val daoObject = db.getDao()
+        daoObject.insert(recipe)
+        db.close()
+    }
+
+    private fun deleteRecipe(recipe: Recipe) {
+        val db = Room.databaseBuilder(
+            this@CategoryActivity,
+            AppDatabase::class.java, "db_name"
+        ).build()
+
+        val daoObject = db.getDao()
+        daoObject.delete(recipe)
+        db.close()
+    }
 }

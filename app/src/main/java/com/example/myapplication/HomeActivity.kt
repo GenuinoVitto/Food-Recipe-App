@@ -3,6 +3,7 @@ package com.example.myapplication
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -23,10 +24,11 @@ class HomeActivity : ComponentActivity() {
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // TODO: Menu View 
-//        binding.menuBtn.setOnClickListener { 
-//            startActivity(Intent(this, ))
-//        }
+        // TODO: Menu View [deprecated]
+        binding.menuBtn.setOnClickListener {
+            Toast.makeText(this, "Menu View", Toast.LENGTH_SHORT).show()
+        //    startActivity(Intent(this, NavActivity::class.java))
+        }
         
         setUpRecyclerView()
         binding.search.setOnClickListener{
