@@ -1,5 +1,5 @@
 # Recipe Realm
-This is a Machine Project created by Jose Mari Victorio G. Genuino in fulfillment of the MOBILE DEVELOPMENT Course under Sir Oliver Berris
+This is a Machine Project created by Jose Mari Victorio G. Genuino in fulfillment of the MOBILE DEVELOPMENT S11 Course under Sir Oliver Berris
 
 The mobile app for culinary enthusiasts offers its users community engagement through recipe sharing. 
 
