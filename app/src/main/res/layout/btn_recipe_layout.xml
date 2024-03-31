@@ -10,22 +10,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        android:src="@drawable/ic_add_recipe"
-        android:background="@drawable/circular_background"
-        android:contentDescription="@string/add_recipe_description"
+        android:src="@drawable/add_btn"
         app:elevation="6dp" />
 
     <!-- Button for deleting a recipe -->
-    <Button
+    <ImageButton
         android:id="@+id/deleteRecipeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/button_margin"
-        android:layout_below="@id/addRecipeButton"
-        android:layout_alignStart="@id/addRecipeButton"
-        android:drawableStart="@drawable/ic_delete_recipe"
-        android:text="@string/delete_recipe"
-        android:onClick="onDeleteRecipeClick" />
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/delete_btn"
+        app:elevation="6dp" />
 
 </RelativeLayout>
