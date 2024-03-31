@@ -9,7 +9,6 @@ interface Dao {
     @Query("SELECT  * FROM recipe")
     fun getAll():List<Recipe?>
 
-
     @Insert
     fun insert(recipe: Recipe)
 
