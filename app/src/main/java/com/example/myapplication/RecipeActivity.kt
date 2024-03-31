@@ -71,6 +71,23 @@ class RecipeActivity : ComponentActivity() {
             }
         }
 
+//        binding.btnDeleteRecipe.setOnClickListener {
+//            // Show a confirmation dialog before deleting the recipe
+//            AlertDialog.Builder(this)
+//                .setTitle("Delete Recipe")
+//                .setMessage("Are you sure you want to delete this recipe?")
+//                .setPositiveButton("Delete") { dialog, _ ->
+//                    // Perform the delete operation
+//                    deleteRecipe(intent.getParcelableExtra("recipe")!!)
+//                    // Close the activity after deleting the recipe
+//                    finish()
+//                }
+//                .setNegativeButton("Cancel") { dialog, _ ->
+//                    dialog.dismiss()
+//                }
+//                .show()
+//        }
+
         binding.backBtn.setOnClickListener {
             finish()
         }
