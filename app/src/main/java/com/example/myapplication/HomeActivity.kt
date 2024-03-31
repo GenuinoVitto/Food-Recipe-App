@@ -23,6 +23,11 @@ class HomeActivity : ComponentActivity() {
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        // TODO: Menu View 
+//        binding.menuBtn.setOnClickListener { 
+//            startActivity(Intent(this, ))
+//        }
+        
         setUpRecyclerView()
         binding.search.setOnClickListener{
             startActivity(Intent(this, SearchActivity::class.java))

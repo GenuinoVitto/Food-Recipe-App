@@ -21,7 +21,7 @@
         app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/menu_btn"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
@@ -53,7 +53,7 @@
         android:textColor="@color/black"
         android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/menu_btn" />
 
     <TextView
         android:id="@+id/textView3"
@@ -66,7 +66,7 @@
         android:textColor="@color/purple_500"
         android:textSize="28sp"
         app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/menu_btn" />
 
     <TextView
         android:id="@+id/textView4"

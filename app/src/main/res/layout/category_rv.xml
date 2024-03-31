@@ -81,7 +81,6 @@
         app:layout_constraintStart_toEndOf="@+id/cardView2"
         app:layout_constraintTop_toBottomOf="@+id/tittle"
         app:srcCompat="@drawable/clock_icon"
-        app:tint="@color/black"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,6 +20,7 @@ class CategoryActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         title = intent.getStringExtra("TITTLE")
+        binding.tittle.text = intent.getStringExtra("CATEGORY")
         setUpRecyclerView()
 
         binding.goBackHome.setOnClickListener{
