@@ -5,8 +5,7 @@ The mobile app for culinary enthusiasts offers its users community engagement th
 
 ![image](https://github.com/GenuinoVitto/recipe-realm-android-application/assets/78674453/abb5170d-9014-4a46-ab46-8cc96416e317)
 ![image](https://github.com/GenuinoVitto/recipe-realm-android-application/assets/78674453/a23ffa17-6b7c-4eb6-b1e3-8784d0742370)
-![Uploading image.png…]()
-
+![image](https://github.com/GenuinoVitto/recipe-realm-android-application/assets/78674453/e640e04d-ce21-40e1-abb4-75f1780d96e8)
 
 ## Dependencies 
 - Room [Local Database]
